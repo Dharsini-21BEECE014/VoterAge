@@ -1,0 +1,70 @@
+
+body {
+    display: flex;
+    color:black;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    height: 100vh; /* Use the full viewport height */
+    margin: 0; /* Remove default margin */
+    font-family: 'Times New Roman', Times, serif;
+    background-image: url("lush-forest-background-framing-natural-scene.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.heading {
+    background-color: transparent;
+      /* Semi-transparent black background */
+    width: 30%; /* Adjust width as needed */
+    margin: auto; /* Center align horizontally */
+    padding: 40px;
+    border-radius: 20px;
+    border: transparent;
+    text-align: center;
+    color:white;
+}
+
+.box {
+    background-color: transparent; /* Semi-transparent white background */
+    padding: 20px;
+    border-radius: 20px;
+    border: transparent;
+    margin-top: 20px;
+}
+
+.box input[type="text"],
+.box input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid transparent;
+    border-radius: 10px;
+    text-align: center;
+    margin-bottom: 10px;
+    box-sizing: border-box; /* Ensure padding is included in width */
+}
+
+.box input[type="button"] {
+    width: 50%;
+    padding: 12px;
+    font-size: 18px;
+    font-weight: bold;
+    border: 2px solid white;
+    border-radius: 12px;
+    background-color: white;
+    color:black;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.box input[type="button"]:hover {
+    background-color: #eeeeee;
+    color: black;
+}
+
+#mes {
+    color: white;
+}
+
